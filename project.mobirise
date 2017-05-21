@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Creative to Sell",
-    "currentPage": "page1.html",
+    "currentPage": "index.html",
     "theme": {
       "name": "mobirise3",
       "title": "Mobirise 3",
@@ -23,7 +23,9 @@
     },
     "versionFirst": "3.12.1",
     "uniqCompNum": 11,
-    "versionPublish": "3.12.1"
+    "versionPublish": "3.12.1",
+    "path": "@PROJECT_PATH@",
+    "screenshot": "screenshot.png"
   },
   "pages": {
     "index.html": {
@@ -114,6 +116,11 @@
             "Theme"
           ],
           "_name": "header1",
+          "_styles": {
+            ".mbr-section-title": {
+              "font-size": "46px"
+            }
+          },
           "_anchor": "header1-1",
           "_params": {
             "parallax": true,
@@ -136,12 +143,7 @@
           },
           "title": "marketing online",
           "text": "Click any text to edit or style it. Click blue \"Gear\" icon in the top right corner to hide/show buttons, text, title and change the block background. <br> Click red \"+\" in the bottom right corner to add a new block. Use the top left menu to create new pages, sites and add extensions.",
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-danger\" href=\"page1.html#header3-4\" data-toolbar=\"-mbrBtnMove\">CONTACTARME</a> ",
-          "_styles": {
-            ".mbr-section-title": {
-              "font-size": "46px"
-            }
-          }
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-danger\" href=\"page1.html#header3-4\" data-toolbar=\"-mbrBtnMove\">CONTACTARME</a> "
         },
         {
           "_styles": {
@@ -306,6 +308,17 @@
             "Theme"
           ],
           "_name": "testimonials2",
+          "_styles": {
+            ".mbr-section-title": {
+              "color": "#ffffff"
+            },
+            ".card-footer > div": {
+              "color": "#ffffff"
+            },
+            ".card-footer > small": {
+              "color": "#3d8eb9"
+            }
+          },
           "testimonial": [
             {
               "text": "<p>\"El diseño es lo más importante para vender un producto, podremos tener una buena estrategia de Marketing, pero si no aplicamos el diseño a ello no servira de nada\"</p>",
@@ -355,6 +368,9 @@
             "count": 3,
             "paddingTop": 3,
             "paddingBottom": 3,
+            "showImages": true,
+            "showName": true,
+            "showBio": true,
             "bgImageRadio": false,
             "parallax": true,
             "bgImage": "@THEME_PATH@/components/_images/sky.jpg",
@@ -364,30 +380,21 @@
             "overlayOpacity": 0.2,
             "overlayColor": "#222",
             "showTitle": true,
-            "showSubtitle": false,
-            "showImages": true,
-            "showName": true,
-            "showBio": true
+            "showSubtitle": false
           },
           "title": "nuestro equipo",
-          "subtitle": "Shape your future web project with sharp design and refine coded functions.",
-          "_styles": {
-            ".mbr-section-title": {
-              "color": "#ffffff"
-            },
-            ".card-footer > div": {
-              "color": "#ffffff"
-            },
-            ".card-footer > small": {
-              "color": "#3d8eb9"
-            }
-          }
+          "subtitle": "Shape your future web project with sharp design and refine coded functions."
         },
         {
           "_tags": [
             "Theme"
           ],
           "_name": "footer1",
+          "_styles": {
+            "P": {
+              "color": "#ffffff"
+            }
+          },
           "_anchor": "footer1-8",
           "_params": {
             "paddingTop": 2,
@@ -401,12 +408,7 @@
             "overlayOpacity": 0.8,
             "overlayColor": "#444444"
           },
-          "text": "Copyright (c) 2017 Creative 2 Sell. &nbsp;Sitio creado por nosotros.",
-          "_styles": {
-            "P": {
-              "color": "#ffffff"
-            }
-          }
+          "text": "Copyright (c) 2017 Creative 2 Sell. &nbsp;Sitio creado por nosotros."
         },
         {
           "_inherit": "menu",
@@ -500,6 +502,14 @@
             "Theme"
           ],
           "_name": "form1",
+          "_styles": {
+            ".form-control-label": {
+              "color": "#232323"
+            },
+            ".mbr-section-title": {
+              "color": "#a7a7a7"
+            }
+          },
           "_anchor": "form1-a",
           "_params": {
             "labelsColor": "#232323",
@@ -545,15 +555,7 @@
               }
             }
           },
-          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-primary\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove\">ENVIAR</a>",
-          "_styles": {
-            ".form-control-label": {
-              "color": "#232323"
-            },
-            ".mbr-section-title": {
-              "color": "#a7a7a7"
-            }
-          }
+          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-primary\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove\">ENVIAR</a>"
         }
       ]
     }
