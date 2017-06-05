@@ -420,6 +420,7 @@ h6,
 }
 #msg-box7-0 H3 {
   font-size: 46px;
+  text-align: right;
 }
 #header1-1 .mbr-section-title {
   font-size: 46px;
@@ -513,4 +514,20 @@ h6,
 }
 #form1-a .mbr-section-title {
   color: #a7a7a7;
+}
+#footer1-f P {
+  color: #ffffff;
+}
+#header5-h .mbr-section-title {
+  color: #000;
+  font-size: 46px;
+}
+#header5-h .mbr-section-lead {
+  color: #9c9a9a;
+}
+#msg-box5-j H3 {
+  color: #ffffff;
+}
+#msg-box5-j P {
+  color: #ffffff;
 }
